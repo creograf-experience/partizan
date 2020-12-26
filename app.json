@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Partizan",
+    "slug": "Partizan",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.1.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "notification": {
+      "icon": "./assets/notification-icon.png"
+    },
+    "splash": {
+      "image": "./assets/images/logoImage1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.partizan",
+      "versionCode": 4,
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ru.creograf.partizan",
+      "infoPlist": {
+        "NSContactsUsageDescription": "Чтобы увидеть кто из ваших друзей находится в приложении и отправки сообщений вам нужно предоставить доступ к вашим контактам",
+        "NSCameraUsageDescription": "Для отправки фотографий вам нужно предоставить доступ к камере",
+        "NSPhotoLibraryUsageDescription": "Для отправки фотографий, которые находятся на вашем устройстве, вам нужно предоставить доступ к хранилищу",
+        "NSMicrophoneUsageDescription": "Для отправки голосовых сообщений вам нужно предоставить доступ к микрофону"
+      }
+    },
+    "description": ""
+  }
+}

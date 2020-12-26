@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "345674247709",
+    "firebase_url": "https://partizan-4e8e8.firebaseio.com",
+    "project_id": "partizan-4e8e8",
+    "storage_bucket": "partizan-4e8e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345674247709:android:801039d7aff6349dbde0f4",
+        "android_client_info": {
+          "package_name": "com.partizan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345674247709-fjj6c1oa017pothu7803g59h7j0pdkga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPy8RLL77wphxEPO3acVUeGKlcAyoI3go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345674247709-fjj6c1oa017pothu7803g59h7j0pdkga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

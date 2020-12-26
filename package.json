@@ -1,0 +1,50 @@
+{
+  "name": "partizan-chat",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "postinstall": "node ./requireCycleFix.js"
+  },
+  "dependencies": {
+    "@expo/react-native-action-sheet": "^2.1.0",
+    "expo": "^35.0.0",
+    "expo-asset": "~7.0.0",
+    "expo-av": "~7.0.1",
+    "expo-contacts": "~7.0.0",
+    "expo-file-system": "~7.0.0",
+    "expo-image-picker": "~7.0.0",
+    "expo-permissions": "~7.0.0",
+    "expo-sms": "~7.0.0",
+    "expo-speech": "~7.0.0",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-autolink": "^1.8.1",
+    "react-native-elements": "^1.1.0",
+    "react-native-flexi-radio-button": "^0.2.2",
+    "react-native-gesture-handler": "~1.3.0",
+    "react-native-modal": "^9.0.0",
+    "react-native-navigation": "^2.14.0",
+    "react-native-remote-svg": "^1.4.2",
+    "react-native-simple-radio-button": "^2.7.3",
+    "react-native-size-matters": "^0.1.6",
+    "react-navigation": "^3.7.1",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "2.1.1",
+    "styled-components": "^4.1.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "babel-plugin-styled-components": "^1.8.0",
+    "babel-preset-expo": "^7.0.0",
+    "babel-preset-react-native": "^4.0.1"
+  },
+  "proxy": "http://localhost:4000"
+}
